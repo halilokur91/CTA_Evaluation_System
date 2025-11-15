@@ -1,0 +1,29 @@
+1️⃣ Paragraf 1
+Turk tillari oilasi, Osiyodan Yevropaga choʻzilgan juda keng bir geografiyada asrlar davomida soʻzlangan va yozuvga oʻtkazilgan bir til guruhidir. Bu tillar, tarixiy jihatdan ham umumiy ildizlardan, ham mintaqaviy oʻzaro taʼsirlardan oziqlangan. Turkcha, Ozarbayjoncha, Qozogʻcha, Qirgʻizcha, Oʻzbekcha va Turkmancha kabi koʻplab lahja va tillar, bir xil fonetik asoslarni boʻlishish bilan birga vaqt oʻtishi bilan oʻziga xos tuzilmalarni rivojlantirgan. Unli tovushlar uygʻunligi, unli tovushlar mosligi va qoʻshimchali tuzilma, bu oilaning eng koʻzga koʻringan xususiyatlari orasidadir.
+
+2️⃣ Paragraf 2
+Umumiy Turk Alifbosi (Common Turkic Alphabet – CTA), Turk tillarining fonetik xilma-xilligini yagona lotin asosli yozuv tizimi ostida ifoda etishni maqsad qilgan bir tashabbusdir. Bu alifbo, harf-tovush munosabatini saqlab, tillar orasidagi yozuv farqlarini kamaytirishni va koʻp tilli maʼlumotlarni qayta ishlash tizimlarida umumiy bir ifodani osonlashtirishni maqsad qiladi. CTA orqali, Turk tillari orasida matn oʻzgartirish, transliteratsiya va tovush tahlili jarayonlari yanada tizimli boʻldi.
+
+3️⃣ Paragraf 3
+Fonetik Moslik Samaradorligi (Phonetic Correspondence Efficiency – PCE), bir yozuv tizimining tovushlarni qanchalik aniq ifoda etishini oʻlchaydigan ilmiy bir metrikadir. Bu metrika, bir harf yoki grafemaning, nutqdagi tovushlarni qanchalik aniq aks ettirganini statistik jihatdan baholaydi. Yuqori PCE qiymati, tovushlarning yozuv tizimida izchil va taxmin qilinadigan shaklda ifoda etilganini koʻrsatadi. CTA Evaluation System, bu oʻlchovni avtomatik ravishda hisoblab, yozuv tizimlari oʻrtasida obyektiv taqqoslashlar oʻtkazishga imkon beradi.
+
+4️⃣ Paragraf 4
+CTA Evaluation System, ham qoidaga asoslangan, ham LLM (Large Language Model) qoʻllab-quvvatlovchi gibrid bir arxitekturada ishlaydi. Bu tuzilma orqali tizim, oldindan belgilangan fonetik qoidalarni qoʻllash bilan birga tilning kontekstual xususiyatlarini ham hisobga oladi. Shunday qilib, faqat harf moslashuvi emas, balki maʼno saqlash va tabiiy tovush oʻzgartirishlari ham taʼminlanadi. Model, OpenAI GPT-4 asosli bir API orqali ishlamoqda va har bir chaqiruvni vaqt tamgʻasi, token soni va ishonch skori bilan qayd etadi.
+
+5️⃣ Paragraf 5
+Tizim, toʻrtta asosiy moduldan tashkil topgan: (1) Transliteration Engine, (2) Phonetic Risk Analyzer, (3) Cognate Aligner, va (4) PCE Analyzer. Transliteration moduli, tillar orasidagi belgi moslashuvini boshqarar ekan; Risk Analyzer, maʼlum harf yoki tovushlarning notoʻgʻri moslashish ehtimolini baholaydi. Cognate Aligner, oʻxshash ildizga ega soʻzlarni (kognatlar) fonetik yaqinlikka koʻra hizalaydi. Nihoyat, PCE Analyzer, yozuv tizimlarining tovush ifodasi muvaffaqiyatini sonli ravishda baholaydi.
+
+6️⃣ Paragraf 6
+Sunʼiy intellekt modellari Turk tillaridagi tovush munosabatlarini oʻrganishi, fonetik yaqinliklarning yanada obyektiv tarzda tahlil etilishiga imkon beradi. LLM qoʻllab-quvvatlovchi fonetik tahlil, inson til mutaxassislari sezmaydigan darajada kichik variatsiyalarni ham aniqlay oladi. Shu sababli, harf-tovush oʻzgartirishlarida qilingan xato darajasi kamayadi, yozuv tizimlarining taqqoslamali ishlashi statistik jihatdan yanada ishonchli boʻladi. CTA Evaluation System bu jarayonni ham tezlashtiradi, ham standartlashtiradi.
+
+7️⃣ Paragraf 7
+Bu tadqiqot, Turk tillari orasidagi fonetik oʻxshashliklarni oʻlchash, yozuv tizimlarining fonetik ifodadagi kuchli va zaif tomonlarini aniqlash uchun yangi bir zamin taqdim etmoqda. Fonetik Risk Tahlili moduli, bir belgining yoki tovushning boshqa tillarda qanchalik farqlanishini xavf skori bilan ifoda etadi. Bu skor, ham til oʻqitish, ham mashina tarjimasi kabi qoʻllanmalarda foydalanilishi mumkin boʻlgan qimmatli bir koʻrsatkichdir. Shunday qilib, Turk tillari orasidagi fonetik moslik darajasi sonli tarzda oʻlchanadigan boʻladi.
+
+8️⃣ Paragraf 8
+Umumiy Turk Alifbosining raqamli muhitda qabul qilinishi, koʻp tilli tabiiy tilni qayta ishlash qoʻllanmalari uchun katta qulaylik taqdim etadi. Dastur tizimlari, endi turli alifbolar oʻrniga yagona umumiy ifoda orqali maʼlumotlarni qayta ishlay oladi. Bu holat, ham taʼlim texnologiyalari, ham tilni saqlash loyihalari uchun katta bir potensialga ega. CTA, shuningdek, tarixiy matnlarning zamonaviylashtirilishida ham koʻprik vazifasini bajarishi mumkin.
+
+9️⃣ Paragraf 9
+CTA Evaluation System toʻliq ochiq manba kodlidir va akademik jamoa tomonidan tasdiqlanadigan tarzda rivojlantirilmoqda. Tizim, foydalanuvchilarga oʻz maʼlumot toʻplamlarini yuklab, transliteratsiya va tahlil qilish imkonini beradi. Shuningdek, GitHubda boʻlishilgan kodlar orqali natijalar osonlikcha qayta ishlab chiqarilishi mumkin. Bu yondashuv, ilmiy shaffoflik va takrorlanish jihatidan katta ahamiyatga ega.
+
+🔟 Paragraf 10
+Xulosa qilib aytganda, CTA Evaluation System faqat bir dasturiy vosita emas, balki Turk tillari orasidagi umumiy fonetik merosni saqlashga qaratilgan bir akademik tashabbusdir. Bu tizim, turli Turk tillarini raqamli bir doirada birlashtirish, tahlil qilish va taqqoslash jarayonini osonlashtiradi. Uzoq muddatda, bu turdagi tizimlarning til texnologiyalari sohasida standartizatsiya va maʼlumot almashish jihatidan muhim hissa qoʻshishi kutilmoqda.

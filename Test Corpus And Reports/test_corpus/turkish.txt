@@ -1,0 +1,29 @@
+1️⃣ Paragraf 1
+Türk dilleri ailesi, Asya’dan Avrupa’ya uzanan çok geniş bir coğrafyada yüzyıllar boyunca konuşulmuş ve yazıya geçirilmiş bir dil grubudur. Bu diller, tarihsel olarak hem ortak köklerden hem de bölgesel etkileşimlerden beslenmiştir. Türkçe, Azerice, Kazakça, Kırgızca, Özbekçe ve Türkmence gibi birçok lehçe ve dil, aynı sesbilimsel temelleri paylaşmakla birlikte zaman içinde kendine özgü yapılar geliştirmiştir. Ses uyumu, ünlü uyumu ve eklemeli yapı, bu ailenin en belirgin özellikleri arasındadır.
+
+2️⃣ Paragraf 2
+Ortak Türk Alfabesi (Common Turkic Alphabet – CTA), Türk dillerinin fonetik çeşitliliğini tek bir Latin tabanlı yazı sistemi altında ifade etmeyi amaçlayan bir girişimdir. Bu alfabe, harf-ses ilişkisini koruyarak, diller arasındaki yazı farklılıklarını azaltmayı ve çok dilli bilgi işlem sistemlerinde ortak bir temsili kolaylaştırmayı hedefler. CTA sayesinde, Türk dilleri arasında metin dönüştürme, transliterasyon ve ses analizi işlemleri daha sistematik hale gelmiştir.
+
+3️⃣ Paragraf 3
+Fonetik Karşılık Verimliliği (Phonetic Correspondence Efficiency – PCE), bir yazı sisteminin sesleri ne kadar doğru temsil ettiğini ölçen bilimsel bir metriktir. Bu metrik, bir harfin veya grafemin, konuşmadaki sesleri ne ölçüde doğru yansıttığını istatistiksel olarak değerlendirir. Yüksek PCE değeri, seslerin yazı sisteminde tutarlı ve tahmin edilebilir biçimde temsil edildiğini gösterir. CTA Evaluation System, bu ölçümü otomatik olarak hesaplayarak yazı sistemleri arasında nesnel karşılaştırmalar yapılmasına olanak tanır.
+
+4️⃣ Paragraf 4
+CTA Evaluation System, hem kural tabanlı hem de LLM (Large Language Model) destekli hibrit bir mimaride çalışmaktadır. Bu yapı sayesinde sistem, önceden tanımlı fonetik kuralları uygularken aynı zamanda dilin bağlamsal özelliklerini de dikkate alır. Böylece sadece harf eşleştirmesi değil, anlam koruma ve doğal ses dönüşümleri de sağlanır. Model, OpenAI GPT-4 tabanlı bir API aracılığıyla çalışmakta ve her çağrıyı zaman damgası, token sayısı ve güven skoru ile kaydetmektedir.
+
+5️⃣ Paragraf 5
+Sistem, dört ana modülden oluşmaktadır: (1) Transliteration Engine, (2) Phonetic Risk Analyzer, (3) Cognate Aligner, ve (4) PCE Analyzer. Transliteration modülü, diller arası karakter eşleştirmesini yönetirken; Risk Analyzer, belirli harf veya seslerin yanlış eşleşme olasılığını değerlendirir. Cognate Aligner, benzer kökene sahip kelimeleri (kognatlar) fonetik yakınlığa göre hizalar. Son olarak PCE Analyzer, yazı sistemlerinin ses temsili başarımını sayısal olarak değerlendirir.
+
+6️⃣ Paragraf 6
+Yapay zekâ modellerinin Türk dillerindeki ses ilişkilerini öğrenmesi, sesbilimsel yakınlıkların daha objektif biçimde analiz edilmesine olanak tanır. LLM destekli fonetik analiz, insan dil uzmanlarının gözlemleyemeyeceği kadar küçük varyasyonları bile fark edebilir. Bu sayede, harf-ses dönüşümlerinde yapılan hata oranı azalır, yazı sistemlerinin karşılaştırmalı performansı istatistiksel olarak daha güvenilir hale gelir. CTA Evaluation System bu süreci hem hızlandırır hem de standartlaştırır.
+
+7️⃣ Paragraf 7
+Bu çalışma, Türk dilleri arasındaki sesbilimsel benzerlikleri ölçmek, yazı sistemlerinin fonetik temsildeki güçlü ve zayıf yönlerini belirlemek için yeni bir zemin sunmaktadır. Fonetik Risk Analizi modülü, bir karakterin veya sesin diğer dillerde ne kadar farklılaştığını risk skoruyla ifade eder. Bu skor, hem dil öğretimi hem de makine çevirisi gibi uygulamalarda kullanılabilecek değerli bir göstergedir. Böylece Türk dilleri arasındaki fonetik uyum düzeyi sayısal olarak ölçülebilir hale gelir.
+
+8️⃣ Paragraf 8
+Ortak Türk Alfabesi’nin dijital ortamda benimsenmesi, çok dilli doğal dil işleme uygulamaları için büyük kolaylık sağlayacaktır. Yazılım sistemleri, artık farklı alfabeler yerine tek bir ortak temsil üzerinden veri işleyebilecektir. Bu durum, hem eğitim teknolojileri hem de dil koruma projeleri için büyük bir potansiyel taşır. CTA, ayrıca tarihsel metinlerin modernleştirilmesinde de bir köprü işlevi görebilir.
+
+9️⃣ Paragraf 9
+CTA Evaluation System tamamen açık kaynak kodludur ve akademik topluluk tarafından doğrulanabilir biçimde geliştirilmektedir. Sistem, kullanıcıların kendi veri kümelerini yükleyerek transliterasyon ve analiz yapmasına izin verir. Ayrıca, GitHub üzerinde paylaşılan kodlar sayesinde sonuçlar kolayca yeniden üretilebilir. Bu yaklaşım, bilimsel şeffaflık ve tekrarlanabilirlik açısından büyük önem taşımaktadır.
+
+🔟 Paragraf 10
+Sonuç olarak, CTA Evaluation System yalnızca bir yazılım aracı değil, aynı zamanda Türk dilleri arasındaki ortak sesbilimsel mirası korumaya yönelik bir akademik girişimdir. Bu sistem, farklı Türk dillerini dijital bir çerçevede birleştirme, analiz etme ve karşılaştırma sürecini kolaylaştırır. Uzun vadede, bu tür sistemlerin dil teknolojileri alanında standardizasyon ve veri paylaşımı açısından önemli katkılar sunacağı öngörülmektedir.

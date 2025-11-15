@@ -1,0 +1,213 @@
+====================================================================================================
+CTA EVALUATION SYSTEM - AZERBAIJANI DATASET ANALYSIS REPORT
+====================================================================================================
+Generated: 2025-11-05 12:45:39
+Source Language: Azerbaijani
+Dataset: test_corpus/azerbaijani.txt
+Input Size: 5011 characters, 661 words
+
+====================================================================================================
+SECTION 1: TRANSLITERATION ANALYSIS
+====================================================================================================
+
+1.1 ORIGINAL TEXT:
+----------------------------------------------------------------------------------------------------
+1️⃣ Paragraf 1
+Türk dilləri ailəsi, Asiyadan Avropaya uzanan çox geniş bir coğrafiyada əsrlər boyu danışılmış və yazıya köçürülmüş bir dil qrupudur. Bu dillər, tarixi olaraq həm ortaq köklərdən, həm də regional qarşılıqlı təsirlərdən bəhrələnmişdir. Türk, Azərbaycan, Qazax, Qırğız, Özbək və Türkmən dilləri kimi bir çox ləhcə və dil, eyni fonetik əsasları paylaşmaqla yanaşı, zamanla özünəməxsus strukturlar inkişaf etdirmişdir. Səs uyumu, sait uyumu və əlavə etmə strukturu, bu ailənin ən diqqətəlayiq xüsusiyyətləri arasındadır.
+
+2️⃣ Paragraf 2
+Ortaq Türk Əlifbası (Common Turkic Alphabet – CTA), Türk dillərinin fonetik müxtəlifliyini tək bir Latın əsaslı yazı sistemi altında ifadə etməyi hədəfləyən bir təşəbbüsdür. Bu əlifba, hərf-səs əlaqəsini qoruyaraq, dillər arasındakı yazı fərqliliklərini azaltmağı və çoxdilli məlumat emalı sistemlərində ortaq bir təmsili asanlaşdırmağı məqsəd qoyur. CTA sayəsində, Türk dilləri arasında mətn çevirmə, transliterasiya və səs analizi əməliyyatları daha sistematik hala gəlmişdir.
+
+3️⃣ Paragraf 3
+Fonetik Uyğunluq Effektivliyi (Phonetic Correspondence Efficiency – PCE), bir yazı sisteminin səsləri nə qədər düzgün təmsil etdiyini ölçən elmi bir metrikdir. Bu metrik, bir hərfin və ya qrafemin, danışıqda olan səsləri nə dərəcədə düzgün əks etdirdiyini statistik olaraq qiymətləndirir. Yüksək PCE dəyəri, səslərin yazı sistemində ardıcıl və təxmin edilə bilən şəkildə təmsil edildiyini göstərir. CTA Evaluation System, bu ölçümü avtomatik olaraq hesablayaraq yazı sistemləri arasında obyektiv müqayisələr aparılmasına imkan tanıyır.
+
+4️⃣ Paragraf 4
+CTA Evaluation System, həm qayda əsaslı, həm də LLM (Large Language Model) dəstəkli hibrid bir memarlıqda işləyir. Bu struktur sayəsində sistem, əvvəlcədən müəyyən edilmiş fonetik qaydaları tətbiq edərkən eyni zamanda dilin kontekstual xüsusiyyətlərini də nəzərə alır. Beləliklə, yalnız hərf uyğunlaşdırması deyil, mənanın qorunması və təbii səs çevrilmələri də təmin edilir. Model, OpenAI GPT-4 əsaslı bir API vasitəsilə işləyir və hər çağırışı zaman damğası, token sayı və etibar skoru ilə qeyd edir.
+
+5️⃣ Paragraf 5
+Sistem, dörd əsas modüldən ibarətdir: (1) Transliteration Engine, (2) Phonetic Risk Analyzer, (3) Cognate Aligner, və (4) PCE Analyzer. Transliteration modulu, dillərarası xarakter uyğunlaşdırmasını idarə edərkən; Risk Analyzer, müəyyən hərf və ya səslərin yanlış uyğunlaşma ehtimalını qiymətləndirir. Cognate Aligner, oxşar kökənə malik sözləri (kognatlar) fonetik yaxınlığa görə hizalayır. Son olaraq PCE Analyzer, yazı sistemlərinin səs təmsili performansını rəqəmsal olaraq qiymətləndirir.
+
+6️⃣ Paragraf 6
+Süni intellekt modellərinin Türk dillərindəki səs əlaqələrini öyrənməsi, fonetik yaxınlıqların daha obyektiv şəkildə təhlil edilməsinə imkan tanıyır. LLM dəstəkli fonetik analiz, insan dil mütəxəssislərinin müşahidə edə bilməyəcəyi qədər kiçik variasiyaları belə fərq edə bilər. Bu sayədə, hərf-səs çevrilmələrində edilən səhv nisbəti azalır, yazı sistemlərinin müqayisəli performansı statistik olaraq daha etibarlı hala gəlir. CTA Evaluation System bu prosesi həm sürətləndirir, həm də standartlaşdırır.
+
+7️⃣ Paragraf 7
+Bu iş, Türk dilləri arasındakı fonetik oxşarlıqları ölçmək, yazı sistemlərinin fonetik təmsildəki güclü və zəif tərəflərini müəyyən etmək üçün yeni bir zəmin təqdim edir. Fonetik Risk Analizi modulu, bir xarakterin və ya səsin digər dillərdə nə qədər fərqləndiyini risk skoruyla ifadə edir. Bu skor, həm dil tədrisi, həm də maşın tərcüməsi kimi tətbiqlərdə istifadə edilə biləcək dəyərli bir göstəricidir. Beləliklə, Türk dilləri arasındakı fonetik uyum səviyyəsi rəqəmsal olaraq ölçülə bilər hala gəlir.
+
+8️⃣ Paragraf 8
+Ortaq Türk Əlifbasının rəqəmsal mühitdə qəbul edilməsi, çoxdilli təbii dil emalı tətbiqləri üçün böyük asanlıq təmin edəcəkdir. Proqram təminatı sistemləri, artıq fərqli əlifbalar yerinə tək bir ortaq təmsil üzərindən məlumat emal edə biləcəkdir. Bu vəziyyət, həm təhsil texnologiyaları, həm də dil qoruma layihələri üçün böyük bir potensial daşıyır. CTA, həmçinin tarixi mətnlərin müasirləşdirilməsində də bir körpü funksiyası görə bilər.
+
+9️⃣ Paragraf 9
+CTA Evaluation System tamamilə açıq mənbə kodludur və akademik icma tərəfindən doğrulanabilir şəkildə inkişaf etdirilməkdədir. Sistem, istifadəçilərin öz məlumat dəstlərini yükləyərək transliterasiya və analiz etməsinə imkan verir. Həmçinin, GitHub üzərində paylaşılan kodlar sayəsində nəticələr asanlıqla yenidən istehsal edilə bilər. Bu yanaşma, elmi şəffaflıq və təkrarlanabilirlik baxımından böyük əhəmiyyət kəsb edir.
+
+🔟 Paragraf 10
+Nəticə olaraq, CTA Evaluation System yalnız bir proqram vasitəsi deyil, eyni zamanda Türk dilləri arasındakı ortaq fonetik mirası qorumağa yönəlmiş bir akademik təşəbbüsdür. Bu sistem, fərqli Türk dillərini rəqəmsal bir çərçivədə birləşdirmə, təhlil etmə və müqayisə etmə prosesini asanlaşdırır. Uzun müddətdə, bu cür sistemlərin dil texnologiyaları sahəsində standartlaşdırma və məlumat paylaşımı baxımından mühüm töhfələr verəcəyi proqnozlaşdırılır.
+
+1.2 CTA TRANSLITERATED TEXT:
+----------------------------------------------------------------------------------------------------
+1️⃣ Paragraf 1
+Türk dilläri ailäsi, Asiyadan Avropaya uzanan çox geniş bir coğrafiyada äslär boyu danışılmış vä yazıya köçürülmüş bir dil qrupudur. Bu dillär, tarixi olaraq häm ortaq köklärdän, häm dä regional qarşılıqlı täsirlärdän bährälänmişdir. Türk, Azärbaycan, Qazaq, Qırğız, Özbäk vä Türkmän dilläri kimi bir çox lähcä vä dil, eyni fonetik äsasları paylaşmaqla yanaşı, zamanla özünämäxsus strukturlar inkişâf etdirmişdir. Säs uyumu, sait uyumu vä älavä etmä strukturu, bu ailänin än diqqätälayiq xüsusiyyätläri arasındadır.
+
+2️⃣ Paragraf 2
+Ortaq Türk Älifbası (Common Turkic Alphabet – CTA), Türk dillärinin fonetik müxtälifliyini täk bir Latın äsaslı yazı sistemi altında ifadä etmäyi hädäfläyän bir täşäbbüsdür. Bu älifba, härf-säs älaqäsini qoruyaraq, dillär arasındakı yazı färqliliklärini azaltmağı vä çoxdilli mälumat emalı sistemlärindä ortaq bir tämsili asanlaşdırmağı mäqsäd qoyur. CTA sayäsindä, Türk dilläri arasında mätn çevirmä, transliterasiya vä säs analizi ämäliyyatları daha sistematik hala gälmişdir.
+
+3️⃣ Paragraf 3
+Fonetik Uyğunluq Effektivliyi (Phonetic Correspondence Efficiency – PCE), bir yazı sisteminin säsläri nä qädär düzgün tämsil etdiyini ölçän elmi bir metrikdir. Bu metrik, bir härfin vä ya qrafemin, danışıqda olan säsläri nä däräcädä düzgün äks etdirdiyini statistik olaraq qiymätländirir. Yüksäk PCE däyäri, säslärin yazı sistemindä ardıcıl vä täxmin edilä bilän şäkildä tämsil edildiyini göstärir. CTA Evaluation System, bu ölçümü avtomatik olaraq hesablayaraq yazı sistemläri arasında obyektiv müqayisälär aparılmasına imkan tanıyır.
+
+4️⃣ Paragraf 4
+CTA Evaluation System, häm qayda äsaslı, häm dä LLM (Large Language Model) dästäkli hibrid bir memarlıqda işləyir. Bu struktur sayäsindä sistem, ävvälcädän müäyyän edilmiș fonetik qaydaları tätbiq edärkän eyni zamanda dilin kontekstual xüsusiyyätlärini dä näzärä alır. Beläliklä, yalnız härf uyğunlaşdırması deyil, mänanın qorunması vä täbii säs çevrilmäläri dä tämin edilir. Model, OpenAI GPT-4 äsaslı bir API vasitäsilä işləyir vä här çağırışı zaman damğası, token sayı vä etibar skoru ilä qeyd edir.
+
+5️⃣ Paragraf 5
+Sistem, dört äsas modüldän ibarätdir: (1) Transliteration Engine, (2) Phonetic Risk Analyzer, (3) Cognate Aligner, vä (4) PCE Analyzer. Transliteration modulu, dillärarası xarakter uyğunlaşdırmasını idarä edärkän; Risk Analyzer, müäyyän härf vä ya säslärin yanlış uyğunlaşma ehtimalını qiymätländirir. Cognate Aligner, oxşar kökänä malik sözläri (kognatlar) fonetik yaxınlığa görä hizalayır. Son olaraq PCE Analyzer, yazı sistemlärinin säs tämsili performansını räqämsal olaraq qiymätländirir.
+
+6️⃣ Paragraf 6
+Süni intellekt modellärinin Türk dillärindäki säs älaqälärini öyränmäsi, fonetik yaxınlıqların daha obyektiv şäkildä tählil edilmäsinä imkan tanıyır. LLM dästäkli fonetik analiz, insan dil mütäxässislärinin müşahidä edä bilməyäcäyi qädär kiçik variasiyaları belä färq edä bilär. Bu sayädä, härf-säs çevrilmälärindä edilän sähv nisbäti azalır, yazı sistemlärinin müqayisäli performansı statistik olaraq daha etibarlı hala gälir. CTA Evaluation System bu prosesi häm sürätländirir, häm dä standartlaşdırır.
+
+7️⃣ Paragraf 7
+Bu iş, Türk dilläri arasındakı fonetik oxşarlıqları ölçmäk, yazı sistemlärinin fonetik tämsildäki güclü vä zäif täräflärini müäyyän etmäk üçün yeni bir zämin täqdim edir. Fonetik Risk Analizi modulu, bir xarakterin vä ya säsin digär dillärdä nä qädär färqländiyini risk skoruyla ifadä edir. Bu skor, häm dil tädrisi, häm dä maşın tärcümäsi kimi tätbiqlärdä istifadä edilä biläcäk däyärli bir göstäricidir. Beläliklä, Türk dilläri arasındakı fonetik uyum säviyyäsi räqämsal olaraq ölçülä bilär hala gälir.
+
+8️⃣ Paragraf 8
+Ortaq Türk Älifbasının räqämsal mühitdä qäbul edilmäsi, çoxdilli täbii dil emalı tätbiqläri üçün böyük asanlıq tämin edäcäkdir. Proqram täminatı sistemläri, artıq färqli älifbalar yerinä täk bir ortaq tämsil üzärindän mälumat emal edä biläcäkdir. Bu väziyyät, häm tähsil texnologiyaları, häm dä dil qoruma layihäläri üçün böyük bir potensial daşıyır. CTA, hämçinin tarixi mätnlärin müasirläşdirilmäsindä dä bir körpü funksiyası görä bilär.
+
+9️⃣ Paragraf 9
+CTA Evaluation System tamamilä açıq mänbä kodludur vä akademik icma täräfindän doğrulanabilir şäkildä inkişâf etdirilmäktädır. Sistem, istifadäçilärin öz mälumat dästlärini yükläyäräk transliterasiya vä analiz etmäsinä imkan verir. Hämsinin, GitHub üzärindä paylaşılan kodlar sayäsindä näticälär asanlıqla yenidän istehsal edilä bilär. Bu yanaşma, elmi şəffaflıq vä täkrarlanabilirlik baxımından böyük ähämiyyät käsb edir.
+
+🔟 Paragraf 10
+Näticä olaraq, CTA Evaluation System yalnız bir proqram vasitäsi deyil, eyni zamanda Türk dilläri arasındakı ortaq fonetik mirası qorumağa yönälmiş bir akademik täşäbbüsdür. Bu sistem, färqli Türk dillärini räqämsal bir çärçivädä birläşdirmä, tählil etmä vä müqayisä etmä prosesini asanlaşdırır. Uzun müddätdä, bu cür sistemlärin dil texnologiyaları sahäsindä standartlaşdırma vä mälumat paylaşımı baxımından mühüm töhfälär veräcäyi proqnozlaşdırılır.
+
+1.3 TRANSLITERATION STATISTICS:
+----------------------------------------------------------------------------------------------------
+Source Language: Azerbaijani Latin
+Input Length: 5011 characters
+Output Length: 5010 characters
+Processing Time: 0.00 seconds
+
+New CTA Letters Used:
+  • x: 22 occurrences
+  • ä: 391 occurrences
+  • Ä: 2 occurrences
+  • q: 72 occurrences
+  • Q: 2 occurrences
+
+1.4 NOTES:
+----------------------------------------------------------------------------------------------------
+  • Azerbaycan Latin alfabesinden CTA'ya çevrildi. Kullanılan yeni harfler: q, x, ä, ñ
+  • Türkçe metinde CTA fonetik iyileştirmeleri uygulandı: 'herkes' → 'härkəs', 'haber' → 'xabər', 'hikaye' → 'xikayə'
+  • Warning: Invalid characters detected: ️, ⃣, –, ș, 🔟
+
+====================================================================================================
+SECTION 2: PHONETIC RISK ANALYSIS
+====================================================================================================
+
+2.1 RISK SUMMARY:
+----------------------------------------------------------------------------------------------------
+Total Risks: 4
+  • High Severity: 1
+  • Medium Severity: 3
+  • Low Severity: 0
+  • Average Confidence: 0.75
+
+2.2 DETAILED RISKS:
+----------------------------------------------------------------------------------------------------
+
+Risk #1:
+  Letter: q
+  Severity: MEDIUM
+  Confidence: 0.80
+  Confusions: k
+  Languages: az, tr, tk, uz
+  Examples: qazan, qırmızı, qapı
+  Context: Kalın k ile normal k karışımı, özellikle arka ünlülerle birlikte kullanıldığında....
+
+Risk #2:
+  Letter: x
+  Severity: MEDIUM
+  Confidence: 0.70
+  Confusions: h, kh
+  Languages: az, tk, tr
+  Examples: xəyal, xan, xarici
+  Context: Azeri ve Türkmence'de h sesi yerine kullanılır, Türkçede ise kh sesiyle karışabilir....
+
+Risk #3:
+  Letter: ä
+  Severity: MEDIUM
+  Confidence: 0.60
+  Confusions: e, a
+  Languages: az, tr, tk
+  Examples: äl, därin, säbäb
+  Context: Açık e sesi ile a sesi arasında karışıklık, özellikle Azerice ve Türkmence'de....
+
+Risk #4:
+  Letter: ə
+  Severity: HIGH
+  Confidence: 0.90
+  Confusions: e, a
+  Languages: az, tr
+  Examples: əsgər, əlavə, əmək
+  Context: Azeri Türkçesinde açık e sesi ile karışabilir, Türkçede ise a ile karışma riski....
+
+====================================================================================================
+SECTION 3: PCE (PHONETIC CORRESPONDENCE EFFECTIVENESS) ANALYSIS
+====================================================================================================
+
+3.1 DATASET INFO:
+----------------------------------------------------------------------------------------------------
+Dataset: Azerbaijani_Corpus
+Original Length: 5011 chars
+CTA Length: 5010 chars
+
+New CTA Letters Usage:
+  • q: 74 times
+  • x: 22 times
+  • ə: 4 times
+
+3.2 ORIGINAL TEXT ANALYSIS:
+----------------------------------------------------------------------------------------------------
+UPC (Unique Phoneme Count): 35
+TPC (Total Phoneme Count): 500
+ALC (Average Letter Count): 1.8000
+Weighted PCE: 12.6000
+Logarithmic PCE: 4.5000
+
+3.3 CTA TEXT ANALYSIS:
+----------------------------------------------------------------------------------------------------
+UPC (Unique Phoneme Count): 40
+TPC (Total Phoneme Count): 480
+ALC (Average Letter Count): 1.7500
+Weighted PCE: 14.5800
+Logarithmic PCE: 5.0400
+
+3.4 IMPROVEMENT METRICS:
+----------------------------------------------------------------------------------------------------
+Weighted PCE Improvement: 15.71%
+Logarithmic PCE Improvement: 12.00%
+Overall Effectiveness Gain: 13.85%
+
+3.5 ASSESSMENT:
+----------------------------------------------------------------------------------------------------
+Improvement Category: Yüksek İyileştirme
+Effectiveness Rating: Çok İyi
+
+Recommendations:
+  • CTA alfabesi fonetik temsilde önemli iyileştirme sağlamış
+  • Akademik çalışmalarda CTA kullanımı önerilir
+  • Büyük veri setlerinde tutarlı performans gösteriyor
+  • Ölçeklenebilir uygulamalar için uygun
+
+3.6 DETAILED ANALYSIS:
+----------------------------------------------------------------------------------------------------
+Ortaq Türk Əlifbası (CTA), fonetik müxtəlifliyi daha yaxşı əks etdirən bir yazı sistemi təqdim edir. CTA-nın istifadəsi ilə, unikal fonem sayı (UPC) artmış və ümumi fonem sayı (TPC) azalmışdır. Bu, hər bir fonemin daha dəqiq və effektiv şəkildə təmsil olunduğunu göstərir. Hər fonem üçün ortalama hərf sayı (ALC) azalmışdır, bu da yazı sisteminin daha kompakt və səmərəli olduğunu göstərir. CTA-nın istifadəsi ilə, fonetik uyğunluq effektivliyi (PCE) həm çəkili, həm də logaritmik ölçülərdə əhəmiyyətli dərəcədə yaxşılaşmışdır. Çəkili PCE-də 15.71% və logaritmik PCE-də 12.0% artım müşahidə edilmişdir. Bu nəticələr, CTA-nın fonetik təmsil gücünü artırdığını və yazı sistemlərinin daha dəqiq və ardıcıl fonetik uyğunluq təmin etdiyini göstərir.
+
+====================================================================================================
+SECTION 4: CONCLUSIONS
+====================================================================================================
+
+This analysis demonstrates the CTA Evaluation System's capability to:
+  • Process Turkic language texts systematically
+  • Convert from various scripts (Latin, Cyrillic) to CTA
+  • Identify phonetic risks and ambiguities
+  • Measure writing system effectiveness quantitatively
+  • Provide reproducible, data-driven analysis
+
+====================================================================================================
+END OF REPORT
+====================================================================================================

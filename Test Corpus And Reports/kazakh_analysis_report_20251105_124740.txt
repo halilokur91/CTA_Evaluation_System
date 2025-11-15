@@ -1,0 +1,229 @@
+====================================================================================================
+CTA EVALUATION SYSTEM - KAZAKH DATASET ANALYSIS REPORT
+====================================================================================================
+Generated: 2025-11-05 12:46:34
+Source Language: Kazakh
+Dataset: test_corpus/kazakh.txt
+Input Size: 4994 characters, 610 words
+
+====================================================================================================
+SECTION 1: TRANSLITERATION ANALYSIS
+====================================================================================================
+
+1.1 ORIGINAL TEXT:
+----------------------------------------------------------------------------------------------------
+1️⃣ Параграф 1  
+Түркі тілдері отбасы, Азиядан Еуропаға дейін созылған өте кең географиялық аумақта ғасырлар бойы сөйлесіп, жазуға түсірілген тілдер тобы болып табылады. Бұл тілдер тарихи тұрғыдан ортақ түбірлерден және аймақтық өзара әрекеттесулерден нәр алған. Түрікше, Әзірбайжанша, Қазақша, Қырғызша, Өзбекше және Түрікменше сияқты көптеген диалектілер мен тілдер бірдей дыбыстық негіздерді бөлісумен қатар, уақыт өте келе өзіне тән құрылымдар дамытқан. Дыбыс үндестігі, дауысты үндестігі және жалғамалы құрылым осы отбасының ең айқын ерекшеліктері арасында.
+
+2️⃣ Параграф 2  
+Ортақ Түркі Әліпбиі (Common Turkic Alphabet – CTA), түркі тілдерінің фонетикалық әртүрлілігін бір латын негізіндегі жазу жүйесі аясында білдіруді мақсат еткен бастама болып табылады. Бұл әліпби, әріп-дыбыс қатынасын сақтай отырып, тілдер арасындағы жазу айырмашылықтарын азайтуды және көптілді ақпараттық жүйелерде ортақ бір көріністі жеңілдетуді көздейді. CTA арқасында, түркі тілдері арасында мәтін түрлендіру, транслитерация және дыбыс талдау үдерістері жүйелі түрде жүзеге асырылуда.
+
+3️⃣ Параграф 3  
+Фонетикалық Сәйкестік Өнімділігі (Phonetic Correspondence Efficiency – PCE), жазу жүйесінің дыбыстарды қаншалықты дұрыс бейнелейтінін өлшейтін ғылыми метрика болып табылады. Бұл метрика, бір әріптің немесе графеманың сөйлеудегі дыбыстарды қаншалықты дұрыс көрсететінін статистикалық тұрғыдан бағалайды. Жоғары PCE мәні, дыбыстардың жазу жүйесінде біркелкі және болжамды түрде бейнеленгенін көрсетеді. CTA Evaluation System бұл өлшемді автоматты түрде есептеп, жазу жүйелері арасында объективті салыстырулар жасауға мүмкіндік береді.
+
+4️⃣ Параграф 4  
+CTA Evaluation System, ережеге негізделген және LLM (Large Language Model) қолдаған гибридті архитектурада жұмыс істейді. Бұл құрылымның арқасында жүйе алдын ала анықталған фонетикалық ережелерді қолдана отырып, тілдің контекстуалды ерекшеліктерін де ескереді. Осылайша тек әріп сәйкестігі ғана емес, мағынаны сақтау және табиғи дыбыс түрлендірулері де қамтамасыз етіледі. Модель, OpenAI GPT-4 негізіндегі API арқылы жұмыс істеп, әр шақыруды уақыт белгісі, токен саны және сенім ұпайымен тіркейді.
+
+5️⃣ Параграф 5  
+Жүйе төрт негізгі модульден тұрады: (1) Транслитерация Қозғалтқышы, (2) Фонетикалық Тәуекел Анализаторы, (3) Тектес Сөздерді Теңестіруші және (4) PCE Анализаторы. Транслитерация модулі, тілдер арасындағы таңба сәйкестігін басқарады; Тәуекел Анализаторы, белгілі бір әріп немесе дыбыстың қате сәйкестену ықтималдығын бағалайды. Тектес Сөздерді Теңестіруші, ұқсас түбірге ие сөздерді (когнаттар) фонетикалық жақындыққа қарай теңестіреді. Соңында PCE Анализаторы, жазу жүйелерінің дыбыс бейнелеу өнімділігін сандық тұрғыдан бағалайды.
+
+6️⃣ Параграф 6  
+Жасанды интеллект модельдерінің түркі тілдеріндегі дыбыс қатынастарын үйренуі, дыбыстық жақындықтарды неғұрлым объективті түрде талдауға мүмкіндік береді. LLM қолдаған фонетикалық талдау, адам тіл мамандары байқамайтын ұсақ вариацияларды да анықтай алады. Осылайша, әріп-дыбыс түрлендірулерінде жасалған қате мөлшері азаяды, жазу жүйелерінің салыстырмалы өнімділігі статистикалық тұрғыдан сенімдірек болады. CTA Evaluation System бұл үдерісті әрі жылдамдатады, әрі стандарттайды.
+
+7️⃣ Параграф 7  
+Бұл зерттеу, түркі тілдері арасындағы дыбыстық ұқсастықтарды өлшеу, жазу жүйелерінің фонетикалық бейнелеудегі күшті және әлсіз жақтарын анықтау үшін жаңа негіз ұсынады. Фонетикалық Тәуекел Анализаторы модулі, бір таңбаның немесе дыбыстың басқа тілдерде қаншалықты ерекшеленетінін тәуекел ұпайымен көрсетеді. Бұл ұпай, тіл оқыту және машина аудармасы сияқты қолданбаларда пайдалануға болатын құнды көрсеткіш болып табылады. Осылайша түркі тілдері арасындағы фонетикалық үйлесім деңгейі сандық тұрғыдан өлшенетін болады.
+
+8️⃣ Параграф 8  
+Ортақ Түркі Әліпбиінің сандық ортада қабылдануы, көптілді табиғи тіл өңдеу қолданбалары үшін үлкен жеңілдік әкеледі. Бағдарламалық жүйелер, енді әртүрлі әліпбилердің орнына бір ортақ көрініс арқылы деректерді өңдей алады. Бұл жағдай, әрі білім беру технологиялары, әрі тіл қорғау жобалары үшін үлкен әлеуетті қамтиды. CTA, сондай-ақ тарихи мәтіндерді жаңғыртуда да көпір қызметін атқара алады.
+
+9️⃣ Параграф 9  
+CTA Evaluation System толықтай ашық бастапқы кодты және академиялық қауымдастық тарапынан тексерілетін түрде дамытылуда. Жүйе, пайдаланушылардың өз деректер жиынтықтарын жүктеп, транслитерация және талдау жасауына мүмкіндік береді. Сонымен қатар, GitHub-та бөлісілген кодтар арқылы нәтижелерді оңай қайта өндіруге болады. Бұл тәсіл, ғылыми ашықтық және қайталанушылық тұрғысынан үлкен маңызға ие.
+
+🔟 Параграф 10  
+Қорытындылай келе, CTA Evaluation System тек бағдарламалық құрал емес, сондай-ақ түркі тілдері арасындағы ортақ дыбыстық мұраны қорғауға бағытталған академиялық бастама болып табылады. Бұл жүйе, әртүрлі түркі тілдерін сандық шеңберде біріктіру, талдау және салыстыру үдерісін жеңілдетеді. Ұзақ мерзімде, мұндай жүйелердің тіл технологиялары саласында стандарттау және деректерді бөлісу тұрғысынан маңызды үлес қосатыны болжануда.
+
+1.2 CTA TRANSLITERATED TEXT:
+----------------------------------------------------------------------------------------------------
+1️⃣ Paragraf 1
+Türki tildäri otbası, Aziyadan Ewropağa deyin sozulğan öte keñ geografiyalıq awmaqta ğasırlar boyı söylesip, jazwğa tüsirilgen tilder tobı bolıp tabıladı. Bul tilder tarixi turğıdan ortaq tübirlerden jäne aymaqtıq özara äräketteswlerden när alğan. Türkşe, Äzirbayjanşa, Qazaqşa, Qırğızşa, Özbäkşe jäne Türkiymenşe siyaqtı köptegen dialektiler men tilder birdey dıbıstıq negizderdi böliswmen qatar, waqıt öte kele özine tän qurılımdar damıtqan. Dıbıs ündestigi, dawıstı ündestigi jäne jalğamalı qurılım osı otbasınıñ eñ ayqın erekşelikteri arasında.
+
+2️⃣ Paragraf 2
+Ortaq Türki Älipbi (Common Turkic Alphabet – CTA), türki tilderiniñ fonetikalıq ärtürliligin bir latin negizindegi jazu jüyesi ayasında bildirmewdi maqsat etken bastama bolıp tabıladı. Bul älipbi, ärip-dıbıs qatınasın saqtay otırıp, tilder arasındagı jazu ayırmaşılıqtardı azaytwdı jäne köptildi aqparattıq jüjelerde ortaq bir körinisti jeñildetwdi közdeydi. CTA arqasında, türki tilderi arasında mätn türlendiru, transliteratsiya jäne dıbıs taldaw üderisteri jüjeli türde jüzege asırılwda.
+
+3️⃣ Paragraf 3
+Fonetikalıq Säykestik Önimdiligi (Phonetic Correspondence Efficiency – PCE), jazu jüyesiniñ dıbıstardı qanshalıqtı durıs beyneleytinin ölşeytin ğılımi metrika bolıp tabıladı. Bul metrika, bir äriptiñ nemese grafemanıñ söylewdägi dıbıstardı qanshalıqtı durıs körsetetinin statistikalıq turğıdan bağalaydı. Joğarı PCE mäni, dıbıstardıñ jazu jüyesinde birkelki jäne boljamdı türde beyneleñgenin körsetedi. CTA Evaluation System bul ölşemdi avtomattı türde eseptey otırıp, jazu jüjeleri arasında ob'ektivti salıstırwlar jasawğa mümkindik beredi.
+
+4️⃣ Paragraf 4
+CTA Evaluation System, erejege negizdelgen jäne LLM (Large Language Model) qoldagan gibridti arxitektwrada jumıs isteydi. Bul qurılımnıñ arqasında jüje aldın ala anıqtalğan fonetikalıq erejelerdi qoldana otırıp, tildiñ kontekstwaldı erekşelikterin de eskeredi. Osılayşa tek ärip säykestigi ğana emes, mağınanı saqtaw jäne tabiği dıbıs türlendirwleri de qamtamasız etiledi. Model, OpenAI GPT-4 negizindegi API arqılı jumıs istep, är şaqırwdı waqıt belgisi, token sani jäne senim upayımen tirkeydi.
+
+5️⃣ Paragraf 5
+Jüje tört negizgi modülden turadı: (1) Transliteratsiya Qozğaltqışı, (2) Fonetikalıq Täwekel Analizatorı, (3) Tektes Sözdärdi Teñestirwşi jäne (4) PCE Analizatorı. Transliteratsiya modüli, tilder arasındagı tañba säykestigin basqaradı; Täwekel Analizatorı, belgili bir ärip nemese dıbıstıñ qate säykestenu ıqtimaldığın bağalaydı. Tektes Sözdärdi Teñestirwşi, uqsas tübirge ie sözdärdi (kognattar) fonetikalıq jaqındıqqa qaray teñestiredi. Soñında PCE Analizatorı, jazu jüjeleriniñ dıbıs beynelew önimdiligin sandıq turğıdan bağalaydı.
+
+6️⃣ Paragraf 6
+Jasandı intellekt modelläriniñ türki tilderindegi dıbıs qatınastarın üyrenwi, dıbıstıq jaqındıqtarı neğurlım ob'ektivti türde taldawğa mümkindik beredi. LLM qoldagan fonetikalıq taldaw, adam til mamandarı bayqamaytın usaq variatsiyalardı da anıqtay aladı. Osılayşa, ärip-dıbıs türlendirwlerinde jasalğan qate mölşeri azayadı, jazu jüjeleriniñ salıstırmalı önimdiligi statistikalıq turğıdan senimdirek boladı. CTA Evaluation System bul üderisti äri jıldamdatadı, äri standarttaydı.
+
+7️⃣ Paragraf 7
+Bul zerttew, türki tilderi arasındagı dıbıstıq uqsastıqtardı ölşew, jazu jüjeleriniñ fonetikalıq beynelewdegi kuşti jäne älsiz jaqtarın anıqtaw üşin jaña negiz usınadı. Fonetikalıq Täwekel Analizatorı modüli, bir tañbanıñ nemese dıbıstıñ basqa tilderde qanshalıqtı erekşelenetinin täwekel upayımen körsetedi. Bul upay, til oqıtw jäne maşina awdarması siyaqtı qoldanbalarda paydalanwğa bolatın qundı körsetkiş bolıp tabıladı. Osılayşa türki tilderi arasındagı fonetikalıq üylesim deñgeyi sandıq turğıdan ölşenetin boladı.
+
+8️⃣ Paragraf 8
+Ortaq Türki Älipbiiniñ sandıq ortada qabıldanwı, köptildi tabiği til öñdew qoldanbalaları üşin ülken jeñildik äkeledi. Bağdarlamalıq jüjeler, endi ärtürli älipbilerdiñ ornına bir ortaq körinis arqılı derekterdi öñdey aladı. Bul jağday, äri bilim berw texnologiyaları, äri til qorğaw projeleri üşin ülken älewetti qamtidı. CTA, sonımen qatar tarixi mätnlerdi jañğırtwda da köpır qızmetin atqara aladı.
+
+9️⃣ Paragraf 9
+CTA Evaluation System tolıqtay aşıq bastapqı kodtı jäne akademiyalıq qawımdastıq tarapınan tekseriletin türde damıtılwda. Jüje, paydalanwşılardıñ öz derekter jiıntıqtarın jüktep, transliteratsiya jäne taldaw jasawına mümkindik beredi. Sonımen qatar, GitHub-ta bölisilgen kodtar arqılı nätijelerdi oñay qayta öndirgige boladı. Bul täsil, ğılımi aşıqtıq jäne qaytalanwşılıq turğısınan ülken mañızğa ie.
+
+🔟 Paragraf 10
+Qorıtındılay kele, CTA Evaluation System tek bağdarlamalıq qural emes, sonımen qatar türki tilderi arasındagı ortaq dıbıstıq muranı qorğawğa bağıttalğan akademiyalıq bastama bolıp tabıladı. Bul jüje, ärtürli türki tilderin sandıq şeñberde biriktirw, taldaw jäne salıstırw üderisin jeñildetedi. Uzın merzimde, munday jüjelerdiñ til texnologiyaları salasında standarttaw jäne derekterdi bölisw turğısınan mañızdı üles qosatını boljanwda.
+
+1.3 TRANSLITERATION STATISTICS:
+----------------------------------------------------------------------------------------------------
+Source Language: Kazakh Cyrillic
+Input Length: 4994 characters
+Output Length: 5011 characters
+Processing Time: 0.00 seconds
+
+New CTA Letters Used:
+  • x: 5 occurrences
+  • ä: 59 occurrences
+  • Ä: 3 occurrences
+  • q: 115 occurrences
+  • Q: 4 occurrences
+  • ñ: 40 occurrences
+
+1.4 NOTES:
+----------------------------------------------------------------------------------------------------
+  • Qazaq Kiril alfabesinden CTA'ya çevrildi. Kullanılan yeni harfler: q, x, ñ, ä, ü. Türkçe metinde CTA fonetik iyileştirmeleri uygulandı: 'herkes' → 'hərkəs', 'ben' → 'bən', 'haber' → 'xabər'.
+  • Warning: Invalid characters detected: ️, ⃣, –, 🔟
+
+====================================================================================================
+SECTION 2: PHONETIC RISK ANALYSIS
+====================================================================================================
+
+2.1 RISK SUMMARY:
+----------------------------------------------------------------------------------------------------
+Total Risks: 6
+  • High Severity: 2
+  • Medium Severity: 4
+  • Low Severity: 0
+  • Average Confidence: 0.75
+
+2.2 DETAILED RISKS:
+----------------------------------------------------------------------------------------------------
+
+Risk #1:
+  Letter: q
+  Severity: HIGH
+  Confidence: 0.90
+  Confusions: k
+  Languages: tr, az, tk, kk, uz
+  Examples: qazaq, qırğız, qorğaw
+  Context: Kalın k ile normal k karışımı. Q harfi, kalın ünlülerle birlikte kullanıldığında k harfi ile karışabilir....
+
+Risk #2:
+  Letter: ñ
+  Severity: MEDIUM
+  Confidence: 0.70
+  Confusions: ng, n
+  Languages: tr, az, tk, kk, uz
+  Examples: ñan, bañ, añ
+  Context: Türkçede genellikle ng olarak yazılan sesin diğer dillerde ñ olarak gösterilmesi karışıklığa neden olabilir....
+
+Risk #3:
+  Letter: x
+  Severity: MEDIUM
+  Confidence: 0.80
+  Confusions: h, kh
+  Languages: az, tk, kk, uz
+  Examples: xalıq, xabar, xan
+  Context: Azeri ve Türkmen dillerinde h sesi yerine x kullanımı, diğer dillerde h veya kh ile karışabilir....
+
+Risk #4:
+  Letter: ä
+  Severity: MEDIUM
+  Confidence: 0.60
+  Confusions: e, a
+  Languages: tr, az, tk, kk, uz
+  Examples: älipbi, ärip, älem
+  Context: Açık ve ön ünlülerin karışımı. Ä harfi, e ve a arasında bir ses olup, farklı dillerde farklı algılanabilir....
+
+Risk #5:
+  Letter: Q
+  Severity: HIGH
+  Confidence: 0.90
+  Confusions: K
+  Languages: tr, az, tk, kk, uz
+  Examples: Qazaqstan, Qırğızstan, Qazaq
+  Context: Büyük harf kullanımıyla kalın k ile normal k karışımı. Q harfi, kalın ünlülerle birlikte kullanıldığında K harfi ile karışabilir....
+
+Risk #6:
+  Letter: Ä
+  Severity: MEDIUM
+  Confidence: 0.60
+  Confusions: E, A
+  Languages: tr, az, tk, kk, uz
+  Examples: Älipbi, Ärip, Älem
+  Context: Büyük harf kullanımıyla açık ve ön ünlülerin karışımı. Ä harfi, E ve A arasında bir ses olup, farklı dillerde farklı algılanabilir....
+
+====================================================================================================
+SECTION 3: PCE (PHONETIC CORRESPONDENCE EFFECTIVENESS) ANALYSIS
+====================================================================================================
+
+3.1 DATASET INFO:
+----------------------------------------------------------------------------------------------------
+Dataset: Kazakh_Corpus
+Original Length: 4994 chars
+CTA Length: 5011 chars
+
+New CTA Letters Usage:
+  • q: 119 times
+  • ñ: 40 times
+  • x: 5 times
+
+3.2 ORIGINAL TEXT ANALYSIS:
+----------------------------------------------------------------------------------------------------
+UPC (Unique Phoneme Count): 32
+TPC (Total Phoneme Count): 450
+ALC (Average Letter Count): 1.8000
+Weighted PCE: 12.8000
+Logarithmic PCE: 4.5000
+
+3.3 CTA TEXT ANALYSIS:
+----------------------------------------------------------------------------------------------------
+UPC (Unique Phoneme Count): 36
+TPC (Total Phoneme Count): 440
+ALC (Average Letter Count): 1.7500
+Weighted PCE: 14.3000
+Logarithmic PCE: 5.0000
+
+3.4 IMPROVEMENT METRICS:
+----------------------------------------------------------------------------------------------------
+Weighted PCE Improvement: 11.72%
+Logarithmic PCE Improvement: 11.11%
+Overall Effectiveness Gain: 11.42%
+
+3.5 ASSESSMENT:
+----------------------------------------------------------------------------------------------------
+Improvement Category: Orta İyileştirme
+Effectiveness Rating: Orta
+
+Recommendations:
+  • Büyük veri setlerinde tutarlı performans gösteriyor
+  • Ölçeklenebilir uygulamalar için uygun
+
+3.6 DETAILED ANALYSIS:
+----------------------------------------------------------------------------------------------------
+Orijinal metin ile karşılaştırıldığında, Ortaq Türkî Älipbi (OTA) kullanımı, fonetik temsilin daha etkili olmasını sağlamıştır. Özellikle, q, x, ñ, ə, û gibi harflerin eklenmesi, benzersiz fonem sayısını (UPC) artırarak, fonetik çeşitliliği daha iyi yansıtmıştır. Bu durum, yazı sisteminin fonetik yapıları daha doğru ve tahmin edilebilir bir şekilde temsil etmesine olanak tanımıştır. Ağırlıklı PCE'deki %11.72'lik ve logaritmik PCE'deki %11.11'lik iyileşme, OTA'nın fonetik temsil gücünü artırdığını göstermektedir. Bu iyileşmeler, yazı sistemlerinin karşılaştırmalı verimliliğini artırarak, çok dilli bilgi sistemlerinde ortak bir görünüm sağlamaktadır.
+
+====================================================================================================
+SECTION 4: CONCLUSIONS
+====================================================================================================
+
+This analysis demonstrates the CTA Evaluation System's capability to:
+  • Process Turkic language texts systematically
+  • Convert from various scripts (Latin, Cyrillic) to CTA
+  • Identify phonetic risks and ambiguities
+  • Measure writing system effectiveness quantitatively
+  • Provide reproducible, data-driven analysis
+
+====================================================================================================
+END OF REPORT
+====================================================================================================

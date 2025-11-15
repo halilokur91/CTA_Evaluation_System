@@ -1,0 +1,151 @@
+========================================================================================================================
+COMPREHENSIVE COMPARATIVE REPORT
+CTA Evaluation System - Cross-Linguistic Analysis of 6 Turkic Languages
+========================================================================================================================
+Generated: 2025-11-05 12:56:10
+Languages Analyzed: 6
+
+========================================================================================================================
+EXECUTIVE SUMMARY
+========================================================================================================================
+
+This comprehensive report compares the CTA (Common Turkic Alphabet) evaluation results
+across six major Turkic languages: Turkish, Azerbaijani, Uzbek, Kazakh, Kyrgyz, and Turkmen.
+
+Key aspects analyzed:
+  • Transliteration effectiveness (text length changes)
+  • Phonetic risk patterns (ambiguities and confusions)
+  • PCE (Phonetic Correspondence Effectiveness) improvements
+  • Cross-linguistic patterns and insights
+
+========================================================================================================================
+TABLE 1: BASIC METRICS COMPARISON
+========================================================================================================================
+
+Language        | Input (chars) | Output (chars) | Change     | File Size 
+------------------------------------------------------------------------------------------------------------------------
+Azerbaijani     | 5011          | 5010           | -0.0%      | 18,474 B  
+Kazakh          | 4994          | 5011           | +0.3%      | 22,123 B  
+Kyrgyz          | 5092          | 5111           | +0.4%      | 22,126 B  
+Turkish         | 4886          | 4886           | +0.0%      | 17,633 B  
+Turkmen         | 4991          | 4991           | +0.0%      | 18,033 B  
+Uzbek           | 5211          | 5150           | -1.2%      | 16,971 B  
+
+========================================================================================================================
+TABLE 2: PHONETIC RISK ANALYSIS COMPARISON
+========================================================================================================================
+
+Language        | Total   | High   | Medium   | Low   | Avg Confidence 
+------------------------------------------------------------------------------------------------------------------------
+Kazakh          | 6       | 2      | 4        | 0     | 0.75           
+Kyrgyz          | 5       | 1      | 3        | 1     | 0.77           
+Uzbek           | 5       | 1      | 4        | 0     | 0.78           
+Azerbaijani     | 4       | 1      | 3        | 0     | 0.75           
+Turkish         | 4       | 1      | 3        | 0     | 0.81           
+Turkmen         | 4       | 1      | 3        | 0     | 0.80           
+
+KEY FINDINGS:
+  • Highest risk count: Kazakh (6 risks)
+  • Lowest risk count: Azerbaijani (4 risks)
+  • Average confidence across all languages: 0.78
+
+========================================================================================================================
+TABLE 3: PCE (PHONETIC CORRESPONDENCE EFFECTIVENESS) IMPROVEMENTS
+========================================================================================================================
+
+Language        | Weighted PCE  | Logarithmic PCE  | Overall Gain  | Rating    
+------------------------------------------------------------------------------------------------------------------------
+Azerbaijani     |  15.71%       |  12.00%          |  13.85%       | Good      
+Kyrgyz          |  15.71%       |  11.76%          |  13.73%       | Good      
+Uzbek           |  14.05%       |  11.71%          |  12.88%       | Good      
+Turkish         |  11.79%       |  11.32%          |  11.56%       | Good      
+Kazakh          |  11.72%       |  11.11%          |  11.42%       | Good      
+Turkmen         |   4.76%       |  10.71%          |   7.73%       | Moderate  
+
+KEY FINDINGS:
+  • Best PCE improvement: Azerbaijani (13.85%)
+  • Lowest PCE improvement: Turkmen (7.73%)
+  • Average PCE improvement: 11.86%
+
+========================================================================================================================
+TABLE 4: PHONEME INVENTORY ANALYSIS
+========================================================================================================================
+
+Language        | Original UPC  | CTA UPC    | UPC Change   | Original TPC  | CTA TPC   
+------------------------------------------------------------------------------------------------------------------------
+Azerbaijani     | 35            | 40         | +5           | 500           | 480       
+Kazakh          | 32            | 36         | +4           | 450           | 440       
+Kyrgyz          | 35            | 40         | +5           | 500           | 480       
+Turkish         | 35            | 40         | +5           | 500           | 490       
+Turkmen         | 35            | 40         | +5           | 500           | 500       
+Uzbek           | 35            | 40         | +5           | 500           | 480       
+
+UPC = Unique Phoneme Count (diversity of sounds)
+TPC = Total Phoneme Count (total sound instances)
+
+========================================================================================================================
+CROSS-LINGUISTIC INSIGHTS
+========================================================================================================================
+
+1. SCRIPT FAMILY PATTERNS:
+------------------------------------------------------------------------------------------------------------------------
+Latin-based languages (4):
+  • Average risk count: 4.2
+  • Average PCE improvement: 11.51%
+  • Languages: Azerbaijani, Turkish, Turkmen, Uzbek
+
+Cyrillic-based languages (2):
+  • Average risk count: 5.5
+  • Average PCE improvement: 12.57%
+  • Languages: Kazakh, Kyrgyz
+
+2. RISK SEVERITY PATTERNS:
+------------------------------------------------------------------------------------------------------------------------
+Across all languages:
+  • High severity risks: 7 (25.0%)
+  • Medium severity risks: 20 (71.4%)
+  • Low severity risks: 1 (3.6%)
+
+3. PCE IMPROVEMENT PATTERNS:
+------------------------------------------------------------------------------------------------------------------------
+Ranking by PCE improvement (best to worst):
+  1. Azerbaijani      13.85%
+  2. Kyrgyz           13.73%
+  3. Uzbek            12.88%
+  4. Turkish          11.56%
+  5. Kazakh           11.42%
+  6. Turkmen           7.73%
+
+========================================================================================================================
+RECOMMENDATIONS & CONCLUSIONS
+========================================================================================================================
+
+Based on the comparative analysis:
+
+1. FOR CYRILLIC-BASED LANGUAGES (Kazakh, Kyrgyz):
+   • Show higher risk counts due to script transition complexity
+   • Require special attention to uvular sounds (q, x)
+   • Benefit significantly from CTA standardization
+
+2. FOR LATIN-BASED LANGUAGES (Turkish, Azerbaijani, Uzbek, Turkmen):
+   • Generally lower risk counts (existing Latin familiarity)
+   • Turkish serves as excellent baseline (standard orthography)
+   • Benefit from CTA's additional letters (ə, q, x, ñ, û)
+
+3. OVERALL CTA EFFECTIVENESS:
+   • Average PCE improvement across all languages: 11.86%
+   • Average risk confidence: 0.78 (reliable detection)
+   • Demonstrates CTA's value for cross-Turkic standardization
+
+4. ACADEMIC SIGNIFICANCE:
+   • Provides quantitative evidence for CTA effectiveness
+   • Enables objective comparison across Turkic languages
+   • Supports writing system reform decisions with data
+   • Facilitates NLP development for Turkic language family
+
+========================================================================================================================
+END OF COMPARATIVE REPORT
+Report generated: 2025-11-05T12:56:10.756951
+Total languages analyzed: 6
+System: CTA Evaluation System v1.0
+========================================================================================================================
