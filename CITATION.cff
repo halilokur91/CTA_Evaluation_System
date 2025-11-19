@@ -3,15 +3,19 @@ message: "If you use this software, please cite it as below."
 title: "CTA Evaluation System: Common Turkic Alphabet Phonetic Analysis Tool"
 version: "1.0.0"
 doi: "10.5281/zenodo.17649223"
-date-released: "2025-11-19"
+date-released: "2025-02-19"
+
 authors:
   - family-names: "Okur"
     given-names: "Halil Ibrahim"
     email: "hibrahim.okur@iste.edu.tr"
   - family-names: "Tohma"
     given-names: "Kadir"
+    email: "kadir.tohma@iste.edu.tr"
+
 repository-code: "https://github.com/halilokur91/CTA_Evaluation_System"
 license: "MIT"
+
 keywords:
   - "Common Turkic Alphabet"
   - "Phonetic Analysis"
@@ -19,12 +23,15 @@ keywords:
   - "Turkic Languages"
   - "LLM"
   - "NLP"
+
 preferred-citation:
   type: software
   authors:
     - family-names: "Okur"
       given-names: "Halil Ibrahim"
+    - family-names: "Tohma"
+      given-names: "Kadir"
   title: "CTA Evaluation System: Common Turkic Alphabet Phonetic Analysis Tool"
-  year: 2025
+  year: 2024
   version: "1.0.0"
   doi: "10.5281/zenodo.17649223"
