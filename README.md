@@ -391,9 +391,9 @@ If you use this software in your research, please cite:
 
 ```bibtex
 @software{okur2024cta,
-  author = {Okur, Halil Ibrahim},
+  author = {Okur, Halil Ibrahim and Tohma, Kadir},
   title = {CTA Evaluation System: Common Turkic Alphabet Phonetic Analysis Tool},
-  year = {2024},
+  year = {2025},
   url = {https://github.com/halilokur91/cta-evaluation-system},
   version = {1.0.0}
 }
