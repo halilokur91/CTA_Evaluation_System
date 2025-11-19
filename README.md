@@ -376,6 +376,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Halil Ibrahim Okur**
 - GitHub: [@halilokur91](https://github.com/halilokur91)
+- Zenedo: https://doi.org/10.5281/zenodo.17649223 
 - Email: hibrahim.okur@iste.edu.tr
 
 ## 🙏 Acknowledgments
