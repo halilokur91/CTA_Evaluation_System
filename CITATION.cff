@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 title: "CTA Evaluation System: Common Turkic Alphabet Phonetic Analysis Tool"
 version: "1.0.0"
 doi: "10.5281/zenodo.17649223"
-date-released: "2025-02-19"
+date-released: "2025-11-19"
 authors:
   - family-names: "Okur"
     given-names: "Halil Ibrahim"
